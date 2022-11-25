@@ -1,5 +1,6 @@
 body {
     background-color: #1f2937;
+    font-family:Arial, Helvetica, sans-serif;
 }
 header {
     display: flex;
@@ -28,4 +29,50 @@ a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    margin-top: 100px;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border: none;
+    color: #e5e7eb;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.image {
+    margin-top: 100px;
+}
+
+.small-img {
+    width: 600px;
+    height: 250px;
 }
