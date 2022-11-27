@@ -76,3 +76,33 @@ a {
     width: 600px;
     height: 250px;
 }
+
+.section-two {
+    background-color: #f9faf8;
+    text-align: center;
+}
+
+.info-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.blue-box {
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-desc {
+    max-width: 150px;
+}
