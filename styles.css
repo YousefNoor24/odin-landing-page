@@ -11,12 +11,21 @@ body {
 header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding: 10px;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: #f9faf8;
 }
 
 .right-nav {
@@ -82,7 +91,10 @@ a {
 
 .small-img {
     width: 600px;
-    height: 250px;
+    height: 300px;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: #f9faf8;
 }
 
 .section-two {
