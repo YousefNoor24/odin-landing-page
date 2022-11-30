@@ -93,6 +93,12 @@ a:hover {
     height: 40px;
     font-size: 17px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background: #e5e7eb;
+    color: #3882f6;
 }
 
 .image {
