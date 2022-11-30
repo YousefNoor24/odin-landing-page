@@ -52,6 +52,10 @@ a {
     font-size: 18px;
 }
 
+a:hover {
+    color: #3882f6;
+}
+
 #section-one {
     display: flex;
     justify-content: center;
