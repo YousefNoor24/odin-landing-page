@@ -13,7 +13,7 @@ body {
 header {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
 }
@@ -36,4 +36,48 @@ header {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+#section-intro {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 0;
+}
+
+#section-intro > div {
+    width: 25%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 25px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+}
+
+#section-intro > div > .btn {
+    margin-top: 20px;
+}
+
+img {
+    border: 1px solid #fff;
+    width: 600px;
+    height: 250px;
 }
