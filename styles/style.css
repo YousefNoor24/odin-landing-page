@@ -138,3 +138,33 @@ img {
     font-weight: 600;
     margin-left: 600px;
 }
+
+#section-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #e5e7eb;
+    padding: 60px 100px;
+    margin: 100px 0;
+    display: flex;
+    gap: 200px;
+}
+
+.action-container > div > span {
+    display: block;
+    font-size: 15px;
+}
+
+.action-container > div > span:nth-child(1) {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.action-container > .btn {
+    border: 1px solid #e5e7eb;
+}
