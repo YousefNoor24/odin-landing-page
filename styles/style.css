@@ -168,3 +168,12 @@ img {
 .action-container > .btn {
     border: 1px solid #e5e7eb;
 }
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
